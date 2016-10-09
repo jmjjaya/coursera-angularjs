@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app = "nameNumericValue">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <titl>Character Numeric</title>
+  </head>
+  <body>
+    <div ng-controller="nameController">
+      <div>
+        ඔබේ නම: <input type="Text" ng-model="name" ng-keyup = "displyValue()"></input>
+      </div>
+      <div>
+        නමෙහි අකුරු ගණන: {{value}}
+      </div>
+    </div>
+  </body>
+</html>
